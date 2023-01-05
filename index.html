@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Birthday Calculator</title>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+</head>
+<body id="app" class="bg-gray-200">
+  <div class="container mx-auto py-10">
+    <h1 class="text-4xl font-bold text-center text-white">Birthday Calculator</h1>
+    <div class="mx-auto w-1/2">
+      <label for="birthday" class="block font-bold text-white mb-2">Enter your birthday:</label>
+      <input type="date" name="birthday" id="birthday" class="block w-full border border-gray-400 rounded p-2">
+      <button id="calculate-button" class="block w-full mt-4 py-2 bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-full">Calculate</button>
+      <p id="result" class="block mt-4 font-bold text-2xl text-center text-white"></p>
+    </div>
+  </div>
+
+  <footer class="bg-gray-800 py-4 text-center text-white">
+    Designed by Dominic Yeboah
+  </footer>
+</body>
+
+  <script src="index.js"></script>
+</body>
+</html>
